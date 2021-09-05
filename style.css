@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&display=swap");
+/* sass template */
+/* global classes */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+h1 {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+/*button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}*/
+.button-dark {
+  width: 130px;
+  height: 35px;
+  background-color: #212121;
+  color: #fff;
+  margin-right: 15px;
+  border: none;
+}
+
+.button-white {
+  width: 130px;
+  height: 35px;
+  color: #212121;
+  background-color: #fff;
+  border: 1px solid #212121;
+}
+
+.button-product-white {
+  width: 100px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #bd3a3a;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 2px;
+}
+
+.button-product-red {
+  width: 120px;
+  height: 35px;
+  background-color: #bd3a3a;
+  border-radius: 5px;
+  border-style: none;
+  padding: 0 5px;
+}
+
+.button-tomato {
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  background-color: #bd3a3a;
+}
+
+.button-size {
+  padding: 2px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: none;
+  background-color: #fff;
+}
+
+.text-slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section2 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myContainer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 40%;
+  height: 300px;
+  background: url(assets/images/px.png) no-repeat center/cover;
+  margin-right: -100px;
+  margin-top: 300px;
+}
+
+.center {
+  width: 40%;
+  height: 300px;
+  background: url(assets/images/px2.png) no-repeat center/cover;
+}
+
+.right {
+  width: 40%;
+  height: 300px;
+  background: url(assets/images/px3.png) no-repeat center/cover;
+  margin-left: -100px;
+  margin-top: 300px;
+  z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+  .myContainer {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10px;
+    padding: 20px;
+  }
+
+  .left {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .center {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .right {
+    width: 100%;
+    margin: 0;
+    margin: 0;
+  }
+
+  #section2 {
+    padding: 15px;
+  }
+}
+.section-margin {
+  margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  padding: 120px 60px 120px;
+}
+
+.box2 {
+  width: 100%;
+  height: 511px;
+  background: url(assets/images/px7.PNG) no-repeat center top/contain;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.box22 {
+  width: 100%;
+  height: 511px;
+  background: url(assets/images/ch.png) no-repeat center top/cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.box23 {
+  width: 100%;
+  height: 511px;
+  background: url(assets/images/hyt.png) no-repeat center top/contain;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.box24 {
+  width: 100%;
+  height: 511px;
+  background: url(assets/images/pxx.png) no-repeat center top/contain;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.flin {
+  background-color: rgba(204, 205, 211, 0.301);
+  padding: 15px;
+}
+
+.item {
+  background: url(assets/images/products/ccc.jpg) no-repeat center/cover;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.box3 {
+  width: 100%;
+  height: 311px;
+  background: url(assets/images/ded6.png) no-repeat center top/cover;
+  background-image: linear-gradient(to bottom, rgba(204, 205, 211, 0.301), rgba(0, 0, 0, 0.73)), url(assets/images/ded6.png);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.box4 {
+  width: 100%;
+  height: 311px;
+  background: url(assets/images/products/ded8.png) no-repeat center top/cover;
+  background-image: linear-gradient(to bottom, rgba(204, 205, 211, 0.301), rgba(0, 0, 0, 0.73)), url(assets/images/products/ded8.png);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.box5 {
+  width: 100%;
+  height: 311px;
+  background: url(assets/images/products/ded7.png) no-repeat center top/cover;
+  background-image: linear-gradient(to bottom, rgba(204, 205, 211, 0.301), rgba(0, 0, 0, 0.73)), url(assets/images/products/ded7.png);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+
+#product_box {
+  width: 780px;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+#single_product {
+  float: left;
+  margin: 20px;
+  padding: 10px;
+}
+
+.master {
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+/* styling the footer */
+.section-padding {
+  padding: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-padding {
+    padding: 30px;
+  }
+}
+hr {
+  background-color: #ffff;
+}
+
+.space:hover {
+  background-color: #eee5e3;
+}
+
+/* styling about */
+.box7 {
+  width: 100%;
+  height: 400px;
+  background: url(assets/images/hero.png) no-repeat center/cover;
+  position: relative;
+}
+
+.center-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  display: none;
+  /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.second-nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: none;
+}
+
+/* typographyclasses */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-25 {
+  font-size: 25px;
+}
+
+.font-weight-bolder {
+  font-weight: bolder;
+}
+
+/* color templates */
+.color-primary {
+  color: #212121;
+}
+
+.qty-icon-color {
+  background-color: #bd3a3a;
+}
+
+.color-secondary {
+  color: #bd3a3a;
+}
+
+.bg-color {
+  background-color: #212121;
+}
+
+.icon-bg-color {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.color-ranger {
+  color: #2f2f2f;
+}
+
+.color-grey {
+  background-color: #f2f2f2;
+}
+
+.color-wary {
+  color: #777575;
+}
+
+.color-light {
+  color: #fff;
+}
+
+.color-blue {
+  background-color: #3870C4;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 50%;
+}
+
+.color-pink {
+  background-color: #FF05E6;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 50%;
+}
+
+.color-gold {
+  background-color: #FB8200;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 50%;
+}
+
+.color-black {
+  background-color: #212121;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 50%;
+}
+
+.jumbo-bg-color {
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.jumbo-bg-color2 {
+  background-color: #fff;
+}
+
+/* category template */
+#category .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#category .owl-carousel .item.product img {
+  transition: transform 0.9s ease;
+}
+#category .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#category .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#category .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#category .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #212121;
+  margin-left: 0.4rem;
+  padding: 0 1rem;
+}
+#category .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#category .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #212121;
+  margin-right: 0.4rem;
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

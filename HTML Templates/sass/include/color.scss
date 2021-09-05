@@ -1,0 +1,80 @@
+/* color templates */
+.color-primary {
+    color: $color-primary;
+}
+
+.qty-icon-color {
+    background-color: $color-secondary;
+}
+
+.color-secondary {
+    color: $color-secondary;
+}
+
+.bg-color {
+    background-color: $color-primary;
+}
+
+.icon-bg-color {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.color-ranger {
+    color: $color-ranger;
+}
+
+.color-grey {
+    background-color: $color-grey;
+}
+
+.color-wary {
+    color: $color-wary;
+}
+
+.color-light{
+    color: $color-light;
+}
+
+.form-border-outline {
+    border: 1px solid $color-secondary;
+}
+
+.color-blue {
+    background-color: $color-blue;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.color-pink {
+    background-color: $color-pink;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.color-gold {
+    background-color: $color-gold;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.color-black {
+    background-color: $color-primary;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 50%;
+}
+
+.jumbo-bg-color {
+    background-color: $color-light;
+    border: 1px solid $color-grey;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.jumbo-bg-color2 {
+    background-color: $color-light;
+}

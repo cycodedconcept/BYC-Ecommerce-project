@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!--Boostrap CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--OWL Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--Custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!--start#header section-->
+        <header id="header">
+            <!--Primary Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-color">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link font-size-14 text-light" href="#">Shop Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-size-14 text-light" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-size-14 text-light" href="#">FAQ</a>
+                    </li>
+                </ul>
+
+                <a class="navbar-brand m-auto" href="#"><img src="assets/images/LOGO2.png" alt="logo"></a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link font-size-14 text-light">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link font-size-14 text-light">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="assets/images/search2.png" alt="search"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="assets/images/user2.png" alt="search"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="assets/images/heart2.png" alt="search"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="assets/images/cart2.png" alt="search"></a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            <!--End primary Navigation-->
+        </header>
+        <!--closing#header section-->
+
+        <section id="cart">
+            <div class="container rounded shadow p-3 mt-5">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-7">
+                        <div id="policy">
+                            <div class="d-flex">
+                                <div class="return">
+                                    <img src="assets/images/products/ded9.png" alt="ded9" class="w-100">
+                                </div>
+                                <div class="return">
+                                    <h1 class="font-size-25 ml-3 font-weight-bolder font-baloo">MEN BOXERS</h1>
+                                    <h1 class="font-size-25 ml-3 font-weight-bolder font-baloo">BYC 1166</h1>
+                                    <p class="font-size-16 font-weight-bold ml-3">100% Cotton 12 Pieces Of Men Boxers</p>
+                                    <button class="button button-product-white font-rubik font-size-12 color-secondary font-weight-bold "><i class="fa fa-heart fa-sm mr-2"></i>Wishlist</button>
+                                    <button class="button button-product-red font-rubik font-size-12 color-light font-weight-bold"><i class="fa fa-trash fa-sm mr-2"></i>Remove</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div id="policy">
+                            <div class="d-flex qty">
+                                <div class="return mt-3">
+                                    <div>
+                                        <p class="font-weight-bolder ml-4">Quantity</p>
+                                    </div>
+                                    <button class="qty-up border qty-icon-color"><i class="fa fa-plus fa-sm pl-2 pr-2 color-light"></i></button>
+                                    <input type="text" class="qty_input border px-2 w-25" disabled value="1" placeholder="1">
+                                    <button class="qty-down border qty-icon-color"><i class="fa fa-minus pl-2 pr-2 color-light"></i></button>
+                                </div>
+                                <div class="return mt-3">
+                                    <div>
+                                        <p class="font-weight-bolder">Unit Price</p>
+                                        <span class="price font-weight-bolder font-size-20">₦2,800.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 offset-lg-6 col-lg-3">
+                        <h1 class="font-size-25 font-weight-bolder font-baloo">CART TOTAL</h1>
+                        <div class="d-flex">
+                            <div class="return">
+                                <div>
+                                    <p class="font-weight-bolder">Subtotal</p>
+                                    
+                                </div>
+                                <div>
+                                    <p class="font-weight-bolder">Total</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-3">
+                        <div class="return mt-5">
+                            <div>
+                                <p class="price font-weight-bolder font-size-14">₦<span id="ideal-price">2,800.00</span></p>
+                                
+                            </div>
+                            <div>
+                                <p class="price font-weight-bolder font-size-14">₦<span id="ideal-price">2,800.00</span></p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 offset-lg-6 col-lg-6">
+                        <button class="button button-product-white font-rubik font-size-12 color-secondary font-weight-bold" style="width: 35%;">Continue shopping</button>
+                        <button class="button button-product-red font-rubik font-size-12 color-light font-weight-bold" style="width: 35%;">Proceed to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="d-none d-md-block d-lg-block">
+              <div class="container rounded shadow p-3 mt-5">
+                <div class="jumbotron jumbo-bg-color2">
+                  <h2 class="font-weight-bolder font-size-20">Recently Viewed</h2>
+                  <div id="myBtnContainer" class="text-right">
+                      <button class="btn" onclick="filterSelection('all')"> See all</button>
+                      <button class="btn active" onclick="filterSelection('men')">Men</button>
+                      <button class="btn" onclick="filterSelection('women')">Women</button>
+                      <button class="btn" onclick="filterSelection('children')"> Children</button>
+                  </div>
+      
+                  <hr>
+                  <!-- Portfolio Gallery Grid -->
+                  <div class="row">
+                    <div class="column men">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column men">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column men">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+      
+                    <div class="column women">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column women">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column women">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+      
+                    <div class="column children">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column children">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="column children">
+                      <div class="content">
+                        <div class="item py-2">
+                          <div class="product font-rale">
+                              <a href="#"><img src="assets/images/products/ded10.png" alt="ded10" class="img-fluid"></a>
+                              <div class="text-center">
+                                <h1 class="font-size-20 mt-3"><span class="font-weight-bolder font-rubik">MEN BOXERS</span><br> <span class="font-size-20">BYC-501LMS</span></h1>
+                                <p class="font-size-14">
+                                  Fashionable Men's Underwear<br> Boxer Cotton Underwear 3 In 1
+                                </p>
+                                <div class="price font-weight-bolder">
+                                  <span>₦2,800.00</span>
+                                </div>
+                                <div class="rating text-warning font-size-12">
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span><i class="fas fa-star"></i></span>
+                                  <span class="font-size-20 ml-2 font-rale color-primary font-weight-bolder">4.05</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  <!-- END GRID -->
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+    
+  <!--fooster section-->
+  <footer class="bg-color mt-5 section-padding">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-2">
+  
+          <!-- Content -->
+          <h5 class="font-rubik color-light font-size-16 mb-3">Company info</h5>
+          <ul>
+            <li class="mb-3" style="list-style: none;">
+              <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">About us</a>
+            </li>
+            <li class="mb-3" style="list-style: none;">
+              <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Affiliate</a>
+            </li>
+            <li style="list-style: none;">
+              <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Fashion Blogger</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2">
+  
+          <!-- Links -->
+          <h5 class="font-rubik color-light font-size-16 mb-3">Help & Support</h5>
+          <ul>
+                <li class="mb-3" style="list-style: none;">
+                <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Shipping info</a>
+                </li>
+                <li class="mb-3" style="list-style: none;">
+                <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Refunds</a>
+                </li>
+                <li style="list-style: none;" class="mb-3">
+                <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">How to Order</a>
+                </li>
+                <li style="list-style: none;" class="mb-3">
+                    <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">How to Track</a>
+                </li>
+                <li style="list-style: none;" class="mb-3">
+                    <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Sizes Guides</a>
+                </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto">
+  
+          <!-- Links -->
+          <h5 class="font-rubik color-light font-size-16 mb-3">Customer Care</h5>
+          <ul>
+                <li class="mb-3" style="list-style: none;">
+                <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Contact us</a>
+                </li>
+                <li class="mb-3" style="list-style: none;">
+                <a href="#!" class="font-rubik color-light font-size-14" style="text-decoration: none;">Payment Methods</a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                      <!--<i class="fab fa-facebook-f"> </i>-->
+                      <img src="assets/images/PayPal.png" alt="">
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <img src="assets/images/Visa.png" alt="">
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                        <img src="assets/images/MasterCard.png" alt="">
+                    </a>
+                  </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-5 col-sm-12">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold color-light">Signup For The Latest News</h5>
+          <!-- Form -->
+            <form class="form-inline">
+                <input class="form-control form-control w-100 bg-color" type="email" placeholder="Enter Email">
+                <!--<i class="fas fa-arrow-right color-light"></i>-->
+            </form>
+          <!-- Form -->
+          <a href="#" class="color-light"><i class="fas fa-envelope color-light mt-4 p-2"></i>bycafrica@gmail.com</a>
+          <div>
+            <a href="#" class="color-light"><i class="fas fa-phone color-light p-2"></i>+234-8166-785-628 <span class="color-light mr-2">|</span>+234-8166-785-628</a>
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+
+  
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <!--<i class="fab fa-facebook-f"> </i>-->
+          <img src="assets/images/facebook.png" alt="" class="icon-bg-color">
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+            <img src="assets/images/instagram.png" alt="" class="icon-bg-color">
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+            <img src="assets/images/twitter.png" alt="" class="icon-bg-color">
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+            <img src="assets/images/youtube.png" alt="" class="icon-bg-color">
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <hr>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 color-light">All rights Reserved:
+      <a href="https://mdbootstrap.com/" class="color-light"> Copyright bycafrica 2021</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!--End footer section-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  
+    <!--Owl carousel js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+    <!--Custom javascript-->
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
